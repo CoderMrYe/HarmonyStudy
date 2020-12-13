@@ -1,0 +1,52 @@
+{
+  "app": {
+    "bundleName": "com.codermrye.day3",
+    "vendor": "codermrye",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.codermrye.day3",
+    "name": ".Day3",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "formEnabled": false,
+        "name": "com.codermrye.day3.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "Day3",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
