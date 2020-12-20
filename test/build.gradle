@@ -2,7 +2,7 @@
 apply plugin: 'com.huawei.ohos.app'
 
 ohos {
-    compileSdkVersion 3
+    compileSdkVersion 4
     defaultConfig {
         compatibleSdkVersion 3
     }
@@ -11,7 +11,7 @@ ohos {
 buildscript {
     repositories {
         maven {
-           url 'https://mirrors.huaweicloud.com/repository/maven/'
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
         }
         maven {
             url 'https://developer.huawei.com/repo/'
